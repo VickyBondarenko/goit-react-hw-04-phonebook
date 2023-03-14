@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { List } from 'components/list/List';
-import Form from 'components/form/Form';
+import { Form } from 'components/form/Form';
 import { Filter } from 'components/filter/Filter';
 import styled from 'styled-components';
 
@@ -24,6 +24,7 @@ export const App = () => {
   };
 
   const handleCheck = user => {
+    console.log(user);
     if (
       contacts.some(
         contact => contact.name.toLowerCase() === user.name.toLowerCase()
