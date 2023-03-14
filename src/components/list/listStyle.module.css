@@ -1,0 +1,16 @@
+.list {
+  font-size: 20px;
+  color: #22313f;
+}
+
+.item {
+}
+
+.list_btn {
+  padding: 5px 20px;
+  font-size: 15px;
+  color: #22313f;
+  background-color: #8dc6ff;
+  border: 2px solid #22313f;
+  border-radius: 4px;
+}
