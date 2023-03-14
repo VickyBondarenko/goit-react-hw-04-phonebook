@@ -24,7 +24,6 @@ export const App = () => {
   };
 
   const handleCheck = user => {
-    console.log(user);
     if (
       contacts.some(
         contact => contact.name.toLowerCase() === user.name.toLowerCase()
